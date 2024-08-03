@@ -1,0 +1,138 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0;
+    color: #333;
+}
+
+.btn {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 0.3em;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 1.2em 1.2em;
+    font-weight: bold;
+}
+
+.btn2 {
+    background-color: white;
+    border: 2px solid #f2f2f2;
+    border-radius: 0.3em;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 1.2em 1.2em;
+    font-weight: bold;
+}
+
+.btn3 {
+    background-color: #e0d2d2;
+    border: none;
+    border-radius: 0.3em;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 1.2em 1.2em;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin: 150px;
+}
+
+.text-container {
+    flex: 1;
+    padding-top: 100px;
+    text-align: left;
+}
+
+.white-block {
+    height: 420px;
+    border-radius: 0.7em;
+    width: 420px;
+    background-color: #f2f2f2;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.text-container2 {
+    flex: 1;
+    text-align: left;
+}
+
+.button-container2 {
+    flex: 0 0 auto;
+    /* Fixed width for the button container */
+}
+
+.call-to-action2 {
+    background-color: #fff;
+    /* White button background */
+    border: 1px solid #ddd;
+    /* Light gray border */
+    padding: 10px 20px;
+    cursor: pointer;
+}
